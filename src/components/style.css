@@ -1,0 +1,187 @@
+.logoImg{
+    width: 17%;
+    height: 7.14%;
+}
+li{
+    list-style-type: none;
+}
+.container1-img{
+    width: 40%;
+    height: 30%;
+}
+.missionPic{
+    width: 40%;
+    height: 45%;
+}
+
+.home {
+    margin: 0.4rem 2rem 0.4rem 0;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Quicksand';
+    font-weight: 500;
+    font-size: 1.4rem;
+    color: #3C4142;
+  }
+ .about {
+    margin: 0.4rem 2rem 0.4rem 0;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Quicksand';
+    font-weight: 500;
+    font-size: 1.4rem;
+    color: #3C4142;
+  }
+ .contact {
+    margin: 0.4rem 1.9rem 0.4rem 0;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Quicksand';
+    font-weight: 500;
+    font-size: 1.4rem;
+    color: #3C4142;
+  }
+  .donate {
+    overflow-wrap: break-word;
+    font-family: 'Quicksand';
+    font-weight: 700;
+    font-size: 1.4rem;
+    
+  }
+.donate-button {
+    border-radius: 1.7rem;
+    background: #3C4142;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0.4rem 0 0.4rem 0.1rem;
+    width: 7.7rem;
+    box-sizing: border-box;
+    color: #FFFFF0;
+  }
+.navButtons{
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    border-radius: 1.7rem;
+    margin-bottom: 3.7rem;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    
+}
+.container1-text{
+    margin-bottom: 3.2rem;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 1.6rem;
+    color: #FFFFF0;
+}
+.container1-buttons{
+    margin: 0 3.4rem;
+  display: flex;
+  flex-direction: row;
+  align-self: flex-start;
+  width: 27.2rem;
+  box-sizing: border-box;
+}
+.hs{
+    background-color: #03A4A4;
+}
+.homepage{
+    background-color: #FFFFF0;
+}
+.newsletter{
+    background-color: #206E87;
+}
+.footer{
+    color: #FFFFF0;
+    background-color: #3C4142;
+}
+.ques{
+    margin-bottom: 3.4rem;
+    display: inline-block;
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: 'Quicksand';
+    font-weight: 700;
+    font-size: 1.6rem;
+    color: #000000;
+}
+.buttonRow1 button{
+    background-color: #FF7F50;
+    color: #FFFFF0;
+}
+.optForHelp img{
+    width: 3.2rem;
+  height: 2.9rem;
+}
+.opt-for-help-1{
+    margin: 0.6rem 0 0.5rem 0;
+display: inline-block;
+overflow-wrap: break-word;
+font-family: 'Roboto';
+font-weight: 600;
+font-size: 1.5rem;
+color: #FFFFF0;
+}
+.optForHelp{
+    border-radius: 2rem;
+  background: #FF7F50;
+  position: relative;
+  margin: 0.1rem 1.6rem 0 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 2.4rem 0;
+  width: 20.6rem;
+  height: fit-content;
+  box-sizing: border-box;
+}
+
+.accomodation-1 {
+    margin: 0.6rem 0 0.2rem 0;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Roboto';
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: #FFFFF0;
+  }
+.legal-assistance {
+    margin: 0.3rem 0;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Roboto';
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: #FFFFF0;
+  }
+.confidential-counselling {
+    text-align: center;
+    overflow-wrap: break-word;
+    font-family: 'Roboto';
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: #FFFFF0;
+  }
+.community-resources {
+    text-align: center;
+    overflow-wrap: break-word;
+    font-family: 'Roboto';
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: #FFFFF0;
+} 
+.know-about-your-rights {
+    text-align: center;
+    overflow-wrap: break-word;
+    font-family: 'Roboto';
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: #FFFFF0;
+  } 
+
