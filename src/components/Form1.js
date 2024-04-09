@@ -1,24 +1,22 @@
 import React, { useState } from "react";
 import Navbar from "./Navbar";
 
-const Form = () => {
+const Form1 = () => {
     const [userHelp, setUserHelp] = useState({
         name: "",
-        method: "",
+        methodofcontact: "",
         contactNumber: "",
         address: "",
         current: "",
         safety: "",
         child: "",
-        history: "",
-        message: "",
-        health: "",
-        contact1: "",
-        contact2: "",
-        assistance1: "",
-        assistance2: "",
-        confi1: "",
-        confi2: ""
+        info: "",
+        duration: "",
+        language: "",
+        trans1: "",
+        trans2: "",
+        consent1: "",
+        consent2: "",
     });
 
     const[records, setRecords] = useState([]);
@@ -49,8 +47,8 @@ const Form = () => {
                 </div>
 
                 <div>
-                    <label htmlFor="method">How should we contact you?</label>
-                    <input type="text" name="method" id="method" autoComplete="off" value={userHelp.method}
+                    <label htmlFor="methodofcontact">How should we contact you?</label>
+                    <input type="text" name="methodofcontact" id="methodofcontact" autoComplete="off" value={userHelp.methodofcontact}
                     onChange={handleInput}/>
                 </div>
 
@@ -67,7 +65,7 @@ const Form = () => {
                 </div>
 
                 <div>
-                    <label htmlFor="current">Current Situation</label>
+                    <label htmlFor="current">Current Living Condition</label>
                     <input type="text" name="current" id="current" autoComplete="off" value={userHelp.current}
                     onChange={handleInput}/>
                 </div>
@@ -85,33 +83,33 @@ const Form = () => {
                 </div>
 
                 <div>
-                    <label htmlFor="history">History of abuse</label>
-                    <input type="text" name="history" id="history" autoComplete="off" value={userHelp.history}
+                    <label htmlFor="info">Legal Information</label>
+                    <input type="text" name="info" id="info" autoComplete="off" value={userHelp.info}
                     onChange={handleInput}/>
                 </div>
 
                 <div>
-                    <label htmlFor="message">Your message for the team</label>
-                    <input type="text" name="message" id="message" autoComplete="off" value={userHelp.message}
+                    <label htmlFor="duration">Preferred duration of accomodation</label>
+                    <input type="text" name="duration" id="duration" autoComplete="off" value={userHelp.duration}
                     onChange={handleInput}/>
                 </div>
 
                 <div>
-                    <label htmlFor="health">Describe physical and emotional health</label>
-                    <input type="text" name="health" id="health" autoComplete="off" value={userHelp.health}
+                    <label htmlFor="language">Language prefernces</label>
+                    <input type="text" name="language" id="language" autoComplete="off" value={userHelp.language}
                     onChange={handleInput}/>
                 </div>
 
                 <div>
-                    <label htmlFor="con">Have you contacted us before?</label>
+                    <label htmlFor="con">Transportation needs?</label>
                     <label> 
-                    <input type="checkbox" name="contact1" id="contact1" autoComplete="off" value={userHelp.contact1}
+                    <input type="checkbox" name="trans1" id="trans1" autoComplete="off" value={userHelp.trans1}
                     onChange={handleInput}/>
                     Yes
                     </label>
 
                     <label> 
-                    <input type="checkbox" name="contact2" id="contact2" autoComplete="off" value={userHelp.contact2}
+                    <input type="checkbox" name="trans2" id="trans2" autoComplete="off" value={userHelp.trans2}
                     onChange={handleInput}/>
                     No
                     </label>
@@ -119,31 +117,17 @@ const Form = () => {
                 </div>
 
                 <div>
-                    <label htmlFor="legalhelp">Want legal assistance?</label>
+                    <label htmlFor="legalhelp">Confirm consent to store and process provided 
+information for the purpose of arranging
+ accommodation.</label>
                     <label> 
-                    <input type="checkbox" name="assistance1" id="assistance1" autoComplete="off" value={userHelp.assistance1}
+                    <input type="checkbox" name="consent1" id="consent1" autoComplete="off" value={userHelp.consent1}
                     onChange={handleInput}/>
                     Yes
                     </label>
 
                     <label> 
-                    <input type="checkbox" name="assistance2" id="assistance2" autoComplete="off" value={userHelp.assistance2}
-                    onChange={handleInput}/>
-                    No
-                    </label>
-                    
-                </div>
-
-                <div>
-                    <label htmlFor="legalhelp">Want confidential counselling services?</label>
-                    <label> 
-                    <input type="checkbox" name="confi1" id="confi1" autoComplete="off" value={userHelp.confi1}
-                    onChange={handleInput}/>
-                    Yes
-                    </label>
-
-                    <label> 
-                    <input type="checkbox" name="confi2" id="confi2" autoComplete="off" value={userHelp.confi2}
+                    <input type="checkbox" name="consent2" id="consent2" autoComplete="off" value={userHelp.consent2}
                     onChange={handleInput}/>
                     No
                     </label>
@@ -157,4 +141,4 @@ const Form = () => {
 
     )
 }
-export default Form
+export default Form1
