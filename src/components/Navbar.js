@@ -4,11 +4,12 @@ import logo from "./logo.png";
 
 const Navbar = () => {
     return(
-        <div>
+        <div className='NavbarConatiner'>
+            
             <div className='logo'>
                 <img src={logo} alt="potrait" className='logoImg'></img>
             </div>
-            <div className='header'>
+            {/* <div className='header'> */}
                 
                 <div className='navButtons'>
                     <ul>
@@ -18,9 +19,12 @@ const Navbar = () => {
                         <li className='donate'><button className='donate-button'>Donate</button></li>
                     </ul>
                 </div>
-            </div>
+            {/* </div> */}
+            
             
         </div>
+        
+        
 
     )
 }

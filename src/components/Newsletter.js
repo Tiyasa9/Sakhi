@@ -6,19 +6,19 @@ const Newsletter = () => {
     return(
         <>
             <Mission />
-
+        <div className="news">
             <div className="newsletter">
-                <p>Newsletter Subscription</p>
-                <p>Subscribe to our newsletter to get to know about women rights and articles </p>
+                <p className="newletter">Newsletter Subscription</p>
+                <p className="texttext">Subscribe to our newsletter to get to know about women rights and articles </p>
                 <form>
-                    <div>
-                        <input type="text"></input>
+                    <div className="formdiv">
+                        <input type="text" placeholder="Enter your email address"></input>
                         <input type="submit"></input>
                         
                     </div>
                 </form>
             </div>
-        
+        </div>
         </>
 
     )

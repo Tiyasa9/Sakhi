@@ -185,3 +185,404 @@ color: #FFFFF0;
     color: #FFFFF0;
   } 
 
+
+  /* navbar */
+
+.NavbarConatiner {
+  display: flex;
+  justify-content: space-between; /* This will create space around elements */
+  align-items: center; /* Vertically align items */
+  
+  text-align: center; /* Center align text */
+}
+.logoImg{
+  height:auto;
+  padding-left: 30px;
+  
+  width: auto;
+}
+
+ul {
+  list-style-type: none; /* Remove default list styles */
+  padding-top:40px; 
+  padding-right: 30px;/* Remove default padding */
+  margin: 0; /* Remove default margin */
+}
+
+ul li {
+  display: inline-block; /* Display list items horizontally */
+  margin-right: 10px; /* Adjust margin between list items */
+}
+
+
+
+.helpline{
+
+  
+
+  font-size: 20px;
+
+ 
+}
+.Helplinecode{
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+/* hero */
+
+.hs {
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 20px; */
+}
+
+
+.container1 {
+  flex: 1; 
+  width: 50vw;
+}
+.girlimage{
+  width: 40vw;
+}
+
+
+.container1-text {
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-top: 50px;
+  /* margin-left: 2%; */
+}
+
+
+.container1-buttons {
+  
+  margin-left: 35%;
+
+  padding-bottom: 30px;
+}
+
+
+.container1-buttons button {
+  background-color: white; /* Button background color */
+  color: #333; /* Button text color */
+  padding: 15px 25px; /* Adjust padding as needed */
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8); /* Add box shadow */
+  margin-right: 20px;
+  font-weight: bold;
+}
+
+/* Style for the image */
+.container1-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  padding-right: 50px;
+}
+.container1-buttons .Learnmore{
+  background-color: #333;
+  color: white; 
+}
+
+/* Assuming you have a CSS file linked to your HTML */
+
+/* Assuming you have a CSS file linked to your HTML */
+
+/* Container for Features component */
+.Features {
+  position: relative; /* Set position to relative */
+  text-align: center; /* Center align text */
+  /* padding: 50px; */
+  width:100vw;
+}
+
+/* Style for the question */
+.ques {
+  margin-top: 50px; /* Adjust top margin as needed */
+  font-size: 40px; /* Adjust font size as needed */
+}
+
+.buttonContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Three columns */
+  gap: 20px; /* Adjust gap between columns and rows */
+  justify-items: center; /* Center align items horizontally */
+  margin-top: 20px; /* Adjust top margin as needed */
+  padding-bottom: 50px;
+  
+}
+
+/* Style for each button */
+.buttonRow1 button,
+.buttonRow3 button,
+.buttonRow2 button {
+  display: flex;
+  height:100px;
+  width:300px;
+
+  align-items: center; /* Center align items vertically */
+  justify-content: center; /* Center align content horizontally */
+  padding: 5px 10px; /* Adjust padding as needed */
+  border: none;
+  border-radius: 10px;
+  margin: 20px;
+  background-color: #FF7F50; /* Button background color */
+  transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+.buttonRow1 .accommodation-1{
+  font-size:30px;
+}
+
+.buttonRow1 button:hover,
+.buttonRow3 button:hover,
+.buttonRow2 button:hover {
+  background-color: #e0e0e0; /* Darker background color on hover */
+}
+
+/* Style for button images */
+button img {
+  margin-right: 10px; /* Adjust margin between image and text */
+}
+
+/* Style for button texts */
+button p {
+  margin: 0; /* Remove default margin */
+}
+
+
+/* Assuming you have a CSS file linked to your HTML */
+
+/* Style for the footer */
+.footer {
+  background-color: #3C4142; /* Footer background color */
+  padding: 50px 20px; /* Adjust padding as needed */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+/* Style for the details section */
+.details {
+  max-width: 300px; /* Adjust max-width as needed */
+}
+
+.details img {
+  width: auto; /* Adjust width as needed */
+  height: auto;
+}
+
+.details p {
+  margin-left: 30px;
+  font-size: 18px; /* Adjust font size as needed */
+}
+
+/* Style for the social media handles */
+.instaHandles {
+  margin-left: 30px;
+  max-width: 300px; /* Adjust max-width as needed */
+}
+
+.instaHandles img {
+  width: 30px; 
+  padding: 10px;
+}
+
+/* Style for the navigation menu */
+.footer ul {
+  list-style-type: none; /* Remove default list styles */
+  padding: 0; /* Remove default padding */
+}
+
+.footer li {
+  margin-bottom: 10px; /* Adjust margin between list items */
+}
+
+/* Style for the contact section */
+.contact {
+  max-width: 300px; /* Adjust max-width as needed */
+}
+
+.contact h2 {
+  font-size: 20px; /* Adjust font size as needed */
+  margin-bottom: 10px; /* Adjust margin as needed */
+}
+
+.contact img {
+  width: 20px; /* Adjust width as needed */
+}
+
+.contact p {
+  font-size: 14px; /* Adjust font size as needed */
+}
+.callusgroup{
+  display: flex;
+  flex-direction: row;
+  /* justify-content: center; */
+  align-items: center;
+}
+.callusgroup img{
+  height: 30px;
+  width: 30px;
+}
+.footerpart2{
+  display: flex;
+  margin-top: 50px;
+  padding: 10px;
+  flex-direction: column;
+}
+.footerpart2 li{
+  font-size: 20px;
+}
+.news{
+  height: 100%;
+  background-color: #FFFFF0;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.newsletter{
+  width: 80vw;
+  height: 60vh;
+  
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 30px;
+  
+  
+}
+.newletter {
+  text-align: center;
+  color: white;
+  padding-top: 5%;
+  font-size: 50px;
+  font-weight: 400;
+}
+.texttext{
+  text-align: center;
+  color: #9D9D9D;
+  /* padding-top: 5%; */
+  font-size: 30px;
+  font-weight: 200;
+}
+.newsletter form{
+  text-align: center;
+  padding-top: 10px;
+} 
+form {
+  display: flex;
+  flex-direction: column; /* Arrange elements in a column */
+  align-items: center; /* Center align items horizontally */
+}
+
+/* Style for the form container */
+.formdiv {
+  margin-bottom: 20px; /* Adjust margin as needed */
+}
+
+/* Style for the input fields */
+input[type="text"] {
+  width: 100%; /* Take up full width */
+  padding: 10px; /* Adjust padding as needed */
+  margin-bottom: 30px; /* Adjust margin as needed */
+  border-radius: 5px; /* Rounded corners */
+  border: 1px solid #ccc; /* Border color */
+}
+
+/* Style for the submit button */
+input[type="submit"] {
+  padding: 10px 20px; /* Adjust padding as needed */
+  border: none;
+  border-radius: 5px; /* Rounded corners */
+  background-color: #FFA114; /* Button background color */
+  color: white; /* Button text color */
+  cursor: pointer;
+}
+
+/* Style for the submit button on hover */
+input[type="submit"]:hover {
+  background-color: ; /* Darker background color on hover */
+}
+/* Assuming you have a CSS file linked to your HTML */
+
+/* Style for the feature page container */
+.featurepage {
+  display: flex;
+  height: 40vh;
+  /* background-color: red; */
+  background: linear-gradient(to bottom, #FFFFF0 25vh, #03A4A4 15vh); 
+  padding: 50px; 
+}
+
+/* Style for the image */
+.missionPic {
+  /* width: 50%; /* Adjust width as needed */
+  /* max-width: 400px; Adjust maximum width as needed */ 
+  width: auto;
+  height: auto;
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Box shadow */
+  margin-right: 50px; /* Adjust margin as needed */
+  transition: transform 0.3s ease; /* Smooth transition for transform */
+}
+
+/* Hover effect for the image */
+.missionPic:hover {
+  transform: scale(1.05); /* Increase scale on hover */
+}
+
+/* Style for the mission text */
+.mission {
+  flex: 1; /* Take up remaining space */
+}
+
+.mission p {
+  font-size: 16px; /* Adjust font size as needed */
+  line-height: 1.6; /* Adjust line height as needed */
+  margin-bottom: 20px; /* Adjust margin as needed */
+}
+
+/* Style for the Learn more button */
+.mission button {
+  padding: 10px 20px; /* Adjust padding as needed */
+  border: none;
+  border-radius: 5px; /* Rounded corners */
+  background-color: #03A4A4; /* Button background color */
+  color: white; /* Button text color */
+  font-size: 16px; /* Adjust font size as needed */
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+.mission button:hover {
+  background-color: #028282; /* Darker background color on hover */
+}
+
+.textside1{
+  margin-top:20px ;
+  font-size: 25px;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-weight: bold;
+}
+.textside2{
+  margin-top:40px ;
+  font-size: 20px;
+  color: white;
+  padding-left: 50px;
+  padding-right: 50px;
+  /* font-weight: bold; */
+}
+.LLL {
+  background-color: #FF7F50; /* Button background color */
+  color: #333; /* Button text color */
+  padding: 10px 20px; /* Adjust padding as needed */
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8); /* Add box shadow */
+  margin-left: 50px;
+  font-weight: bold;
+}
+
