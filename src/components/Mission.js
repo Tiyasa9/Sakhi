@@ -9,6 +9,7 @@ const Mission = () => {
         <div className="homepage">
         <Features />
 
+{/* Here is code */}
 
         <div className="featurepage">
 
