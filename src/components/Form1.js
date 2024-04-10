@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Navbar from "./Navbar";
+import Footer from "./Footer";
 
 const Form1 = () => {
     const [userHelp, setUserHelp] = useState({
@@ -135,6 +136,8 @@ information for the purpose of arranging
                 </div>
                 <button type="submit">Submit</button>
              </form>
+
+             <Footer/>
             
         </>
        
