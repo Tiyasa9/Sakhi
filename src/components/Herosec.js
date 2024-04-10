@@ -1,5 +1,4 @@
 import React from 'react'
-import Navbar from './Navbar'
 import './style.css'
 import pot from "./pot.jpg";
 
@@ -7,7 +6,6 @@ import pot from "./pot.jpg";
 const Herosec = () => {
     return(
         <div>
-            <Navbar />
             <div className='Helplinecode'>
             <span className='helpline'>
                 Contact us 24/7  1-800-72544-38

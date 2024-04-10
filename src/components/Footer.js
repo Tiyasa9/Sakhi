@@ -1,5 +1,4 @@
 import React from "react";
-import Newsletter from "./Newsletter";
 import './style.css'
 import logo from "./logo.png";
 import insta from "./insta.png";
@@ -12,8 +11,6 @@ import email from "./email.png";
 const Footer = () => {
     return(
         <>
-        <Newsletter />
-
         <div className="footer">
             <div className="details">
                 <img src={logo} alt="logo" className="logoImg"></img>

@@ -1,5 +1,4 @@
 import React from "react";
-import Herosec from "./Herosec";
 import './style.css'
 import Vector from "./Vector.png"
 import Vector1 from "./Vector-1.png"
@@ -11,7 +10,6 @@ import house from "./house.png"
 const Features = () => {
     return(
         <div className="Features"> {/* Add a class to the Features container */}
-            <Herosec />
 
             <div className="Features1">
 

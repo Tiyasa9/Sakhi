@@ -1,11 +1,9 @@
 import React from "react";
-import Mission from "./Mission";
 import './style.css'
 
 const Newsletter = () => {
     return(
         <>
-            <Mission />
         <div className="news">
             <div className="newsletter">
                 <p className="newletter">Newsletter Subscription</p>

@@ -1,5 +1,4 @@
 import React from "react";
-import Features from "./Features";
 import './style.css'
 import woman from "./woman.png";
 
@@ -7,7 +6,6 @@ import woman from "./woman.png";
 const Mission = () => {
     return(
         <div className="homepage">
-        <Features />
 
 {/* Here is code */}
 
